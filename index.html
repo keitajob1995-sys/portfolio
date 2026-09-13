@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body>
+    <!-- ローディング画面 -->
+    <div id="loading">
+      <video src="./image/dog_road_screen.mp4" class="spinner"></video>
+    </div>
+    <header class="header">
+      <nav>
+        <a href="./index.html">
+          <div class="header_logo_box">
+            <img src="./image/header_dog_logo.png" alt="犬ヘッダーロゴ" class="dog" />
+          </div>
+        </a>
+        <button id="menu-open" class="btn-menu">
+                   <span class="top_border"></span>
+          <span class="middle_border"></span>
+          <span class="bottom_border"></span>
+        </button>
+        <div id="menu-panel">
+          <button id="menu-close" class="btn-menu">
+            <!-- <img src="./image/cross_logo.png" alt="クロスメニュー" class="cross_menu" /> -->
+          </button>
+          <img src="../image/dog_preparation_logo.png" alt="" class="menu_logo" width="50px" />
+          <ul class="menu-list">
+            <li><a href="./index.html" class="dog_born">Top</a></li>
+            <li><a href="./index.html#works" class="dog_born">Works</a></li>
+            <li><a href="./job/index.html#about" class="dog_born">About</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="hero_container" id="top">
+          <div class="center_logo">
+            <div class="dog_center_logo_box">
+              <img src="./image/dog_center_logo.png" alt="犬センターロゴ" class="dog_center_logo" />
+              <div class="center_logo_circle"></div>
+              <div class="center_logo_circle_second"></div>
+              <div class="center_logo_circle_third"></div>
+              <div class="center_logo_circle_force"></div>
+            </div>
+          </div>
+        </div>
+        <section class="works_wrapper">
+          <div class="works_box">
+            <div>
+              <h2 class="works_title title_fade_in" id="works">WORKS</h2>
+            </div>
+            <div class="works_content">
+              <div class="works_items">
+                <figure class="works_items_backgroundcolor">
+                  <div class="works_image_backgroundcolor">
+                    <a href="https://kitakan-sapporo.main.jp/603b/2025-1213/tsukamto/cafe/index.html">
+                      <img src="./image/cafe_site.png" alt="カフェサイト" class="works_cafesite_image" />
+                    </a>
+                  </div>
+                  <div class="works_text_position">
+                    <figcaption class="works_text">カフェサイト</figcaption>
+                  </div>
+                </figure>
+              </div>
+              <div class="works_items">
+                <figure class="works_items_backgroundcolor">
+                  <div class="works_image_backgroundcolor">
+                    <a href="./pdf/tsukamoto_logo.pdf"> <img src="../image/tsukamoto_logo_image.png" alt="ロゴ" class="works_logo_image" /></a>
+                  </div>
+                  <div class="works_text_position">
+                    <figcaption class="works_text">ロゴマーク</figcaption>
+                  </div>
+                </figure>
+              </div>
+              <div class="works_items">
+                <figure class="works_items_backgroundcolor">
+                  <div class="works_image_backgroundcolor">
+                    <a href="./pdf/tsukamoto_bc.pdf">
+                      <div class="works_bc_image_link_box">
+                        <img src="./image/tsukamoto_bc_image.jpg" alt="名刺" class="works_bc_image" />
+                      </div>
+                    </a>
+                  </div>
+                  <div class="works_text_position">
+                    <figcaption class="works_text">名刺</figcaption>
+                  </div>
+                </figure>
+                <div class="works_circle"></div>
+                <div class="works_circle_second"></div>
+                <div class="works_circle_third"></div>
+                <div class="works_circle_force"></div>
+              </div>
+              <div class="works_items">
+                <figure class="works_items_backgroundcolor">
+                  <div class="works_image_backgroundcolor">
+                    <a href="./pdf/gw_Thumbnail.pdf">
+                      <img src="./image/tsukamoto_thumbnail.jpg" alt="GWお知らせサムネイル" class="works_thumbnail_image" />
+                    </a>
+                  </div>
+                  <div class="works_text_position">
+                    <figcaption class="works_text">GWお知らせサムネイル</figcaption>
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <!-- <div class="works_content">
+              <div class="works_items">
+                <figure class="works_items_backgroundcolor">
+                  <div class="works_image_backgroundcolor">
+                    <a href="https://kitakan-sapporo.main.jp/603b/2025-1213/tsukamto/cafe/index.html">
+                      <img src="../image/cafe_site.png" alt="カフェサイト" class="works_cafesite_image" />
+                    </a>
+                  </div>
+                  <div class="works_text_position">
+                    <figcaption class="works_text">カフェサイト</figcaption>
+                  </div>
+                </figure>
+              </div>
+              <div class="works_items">
+                <figure class="works_items_backgroundcolor">
+                  <div class="works_image_backgroundcolor">
+                    <a href="../pdf/tsukamoto_logo.pdf"> <img src="../image/tsukamoto_logo_image.png" alt="ロゴ" class="works_logo_image" /></a>
+                  </div>
+                  <div class="works_text_position">
+                    <figcaption class="works_text">ロゴマーク</figcaption>
+                  </div>
+                </figure>
+              </div>
+              <div class="works_items">
+                <figure class="works_items_backgroundcolor">
+                  <div class="works_image_backgroundcolor">
+                    <a href="../pdf/tsukamoto_bc.pdf">
+                      <div class="works_bc_image_link_box">
+                        <img src="../image/tsukamoto_bc_image.jpg" alt="名刺" class="works_bc_image" />
+                      </div>
+                    </a>
+                  </div>
+                  <div class="works_text_position">
+                    <figcaption class="works_text">名刺</figcaption>
+                  </div>
+                </figure>
+                <div class="works_circle"></div>
+                <div class="works_circle_second"></div>
+                <div class="works_circle_third"></div>
+                <div class="works_circle_force"></div>
+              </div>
+              <div class="works_items">
+                <figure class="works_items_backgroundcolor">
+                  <div class="works_image_backgroundcolor">
+                    <a href="../pdf/gw_Thumbnail.pdf">
+                      <img src="../image/tsukamoto_thumbnail.jpg" alt="GWお知らせサムネイル" class="works_thumbnail_image" />
+                    </a>
+                  </div>
+                  <div class="works_text_position">
+                    <figcaption class="works_text">GWお知らせサムネイル</figcaption>
+                  </div>
+                </figure>
+              </div>
+            </div> -->
+<!-- aaa -->
+            <a href="./index.html#top" id="btn">
+              <div class="top_link">
+                <p class="top_link_text">Top</p>
+                <img src="./image/top_pawpad_logo.png" alt="肉球ボタン" class="top_link_logo" />
+              </div>
+            </a>
+          </div>
+        </section>
+        <section class="profile_wrapper">
+          <div class="profile_background">
+            <div class="profile_border">
+              <h2 class="profile_title title_fade_in" id="profile">PROFILE</h2>
+            </div>
+            <div class="profile_position">
+              <div class="profile_image_area">
+                <figure class="profile_image_box">
+                  <img src="./image/profile_image.png" alt="プロフィール画像" class="profile_image" id="image" />
+                </figure>
+              </div>
+              <div class="profile_text_box">
+                <h3 class="profile_name">塚本　圭太</h3>
+                <p class="profile_text">ポートフォリオをご覧いただきありがとうございます。<br />1995年10月3日生まれ　北海道札幌市出身 WEBコーダーを目指し、勉強しております。<br />誰でも相談がしやすく、サポートが出来るようなWEBコーダーになりたいと思っております。</p>
+                <div class="profile_link_position">
+                  <a href="./job/index.html#about" class="profile_link">詳しくはこちら</a>
+                </div>
+              </div>
+              <div class="center_logo_circle_third"></div>
+              <div class="center_logo_circle_force"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer_backcolor">
+        <div class="footer_color">
+          <p>TSUKAMOTO_PORTFOLIO</p>
+          <a href="#">
+            <div class="footer_sns_position">
+              <img src="./image/instagram_white.png" alt="インスタグラムロゴ" class="footer_sns_color" />
+            </div>
+          </a>
+        </div>
+        <div class="footer_contact_position">
+          <h3 class="footer_contact_title" id="">CONTACT</h3>
+          <p class="footer_mail_font">
+            ▼お仕事やご相談があればこちらまで<span class="footer_mail_font_linebreak"><br /></span>（メール内の●は@に置き換えてください）
+          </p>
+          <div class="footer_mail_box">
+            <p class="footer_mail_text">keitajob.1995●gmail.com</p>
+          </div>
+        </div>
+        <div class="contact_text_color"></div>
+      </div>
+    </footer>
+  </body>
+</html>
